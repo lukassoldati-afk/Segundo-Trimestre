@@ -95,14 +95,32 @@ body {
 
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   min-height: 100vh;
   background-color: #f4f4f9;
   padding: 20px;
 }
 
-/* Envolvente para alinhar varios cards em tela */
+/* Cabeçalho do repositório */
+.repo-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.repo-instruction {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2c3e50;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  letter-spacing: 0.5px;
+}
+
+/* Envolvente para os cards */
 .cards-wrapper {
   display: flex;
   gap: 30px;
